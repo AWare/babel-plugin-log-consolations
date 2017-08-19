@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+"'use strict';
+
+console.log('\\\\x1B[32m foo.js:2 \\\\x1B[0m', 'hello');
+console.info('\\\\x1B[32m foo.js:3 \\\\x1B[0m', 'hello');
+console.debug('\\\\x1B[32m foo.js:4 \\\\x1B[0m', 'hello');
+console.warn('\\\\x1B[32m foo.js:5 \\\\x1B[0m', 'hello');
+console.error('\\\\x1B[32m foo.js:6 \\\\x1B[0m', 'hello');
+console.log('\\\\x1B[32m foo.js:7 \\\\x1B[0m', 'hello', 1, 2, 'hi');"
+`;
