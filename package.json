@@ -1,5 +1,6 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "name":"babel-plugin-log-consolations",
   "description": "Tells you where you called console.log from",
   "repository": "aware/babel-plugin-log-consolations",
   "author": "alex ware <alex.ware@guardian.co.uk>",
