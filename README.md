@@ -11,28 +11,14 @@ $ yarn add --dev babel-plugin-log-consolations
 
 ## Usage
 
-### Via `.babelrc` (Recommended)
+### Via `.babelrc`  
 
 **.babelrc**
 
 ```json
 {
-  "plugins": ["log-consolations"]
+  "plugins": ["babel-plugin-log-consolations"]
 }
-```
-
-### Via CLI
-
-```sh
-$ babel --plugins log-consolations script.js
-```
-
-### Via Node API
-
-```javascript
-require("babel-core").transform("code", {
-  plugins: ["log-consolations"]
-});
 ```
 
 ## Credits
